@@ -14,21 +14,13 @@ composer install
 <h2>Create a route</h2>
 
 <h6>GET</h6>
-```php
-$router->map('GET', 'LINK TO ACCESS IT', 'LINK WHERE THE FILE IS LOCATED', 'NAME OF THE ROUTE');
-```
+```php $router->map('GET', 'LINK TO ACCESS IT', 'LINK WHERE THE FILE IS LOCATED', 'NAME OF THE ROUTE'); ```
 
 <h6>POST</h6>
-```php
-$router->map('POST', 'LINK TO ACCESS IT', 'LINK WHERE THE FILE IS LOCATED', 'NAME OF THE ROUTE');
-```
+<code>$router->map('POST', 'LINK TO ACCESS IT', 'LINK WHERE THE FILE IS LOCATED', 'NAME OF THE ROUTE');</code>
 
 <h6>PATCH</h6>
-```php
-$router->map('PATCH', 'LINK TO ACCESS IT', 'LINK WHERE THE FILE IS LOCATED', 'NAME OF THE ROUTE');
-```
+<code>$router->map('PATCH', 'LINK TO ACCESS IT', 'LINK WHERE THE FILE IS LOCATED', 'NAME OF THE ROUTE');</code>
 
 <h6>DELETE</h6>
-```php
-$router->map('DELETE', 'LINK TO ACCESS IT', 'LINK WHERE THE FILE IS LOCATED', 'NAME OF THE ROUTE');
-```
+<code>$router->map('DELETE', 'LINK TO ACCESS IT', 'LINK WHERE THE FILE IS LOCATED', 'NAME OF THE ROUTE');</code>
