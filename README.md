@@ -1,9 +1,7 @@
 # Router
  
 <h2>1. Install composer</h2>
-```
-composer install
-```
+<code>composer install</code>
 
 <hr>
 
@@ -14,7 +12,7 @@ composer install
 <h2>Create a route</h2>
 
 <h6>GET</h6>
-```php $router->map('GET', 'LINK TO ACCESS IT', 'LINK WHERE THE FILE IS LOCATED', 'NAME OF THE ROUTE'); ```
+<code>$router->map('GET', 'LINK TO ACCESS IT', 'LINK WHERE THE FILE IS LOCATED', 'NAME OF THE ROUTE');</code>
 
 <h6>POST</h6>
 <code>$router->map('POST', 'LINK TO ACCESS IT', 'LINK WHERE THE FILE IS LOCATED', 'NAME OF THE ROUTE');</code>
